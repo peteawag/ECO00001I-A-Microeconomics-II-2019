@@ -1,0 +1,16 @@
+\documentclass[11pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+
+\begin{document}
+
+
+\begin{tabular}
+[c]{|l|l|l|}\hline
+$\left(  u_{1},u_{2}\right)  $ & $Q$ & \tikzmark{startcol}{$F$}\\\hline
+\tikzmark{startrow}$Q$ & $2,2$ & $0,3$\tikzmark{endrow}\\\hline
+$F$ & $3,0$ &\tikzmark{endcol} $1,1$\\\hline
+\end{tabular}
+
+\DrawVLine[blue, thick, opacity=0.8]{startcol}{endcol};
+\end{document}

@@ -1,0 +1,17 @@
+\documentclass[]{standalone}
+\usepackage{lipsum,enumerate,framed}
+\begin{document}
+\bgroup
+\def\arraystretch{2}%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Competition & $Q^*$                        & $p^*$              & $CS$                                    & $PS$                                 \\ \hline
+Perfect     & $\frac{a-c}{b}$              & $c$                & $\frac{(a-c)^2}{2b}$                    & 0                                    \\ \hline
+Monopoly    & $\frac{1}{2}\frac{a-c}{b}$   & $\frac{a+c}{2}$    & $\frac{1}{4}\frac{(a-c)^2}{2b}$         & $\frac{1}{4}\frac{(a-c)^2}{b}$       \\ \hline
+Stackelberg & $\frac{3}{4}\frac{a-c}{b}$   & $\frac{a+3c}{4}$   & $\frac{9}{16}\frac{(a-c)^2}{2b}$        & $\frac{3}{16}\frac{(a-c)^2}{b}$      \\ \hline
+Cournot     & $\frac{n}{n+1}\frac{a-c}{b}$ & $\frac{a+nc}{n+1}$ & $\frac{n^2}{(n+1)^2}\frac{(a-c)^2}{2b}$ & $\frac{n}{(n+1)^2}\frac{(a-c)^2}{b}$ \\ \hline
+Bertrand    & $\frac{a-c}{b}$              & $c$                & $\frac{(a-c)^2}{2b}$                    & 0                                    \\ \hline
+\end{tabular}
+\egroup
+
+\end{document}

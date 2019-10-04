@@ -1,0 +1,39 @@
+\documentclass[11pt]{standalone}
+\usepackage{tikz, pgfplots,amsmath, amssymb, amsthm}   
+\usepgfplotslibrary{groupplots}
+
+
+\begin{document}
+
+
+  \begin{tikzpicture}[scale=.8]
+
+
+\begin{axis}[
+  height=7.5cm, width=10cm,
+axis x line=middle, axis y line=left,
+  ymin=-.5, ymax=1.5, xmin=0, xmax=2,
+  xtick={0.5,1,1.9},ytick={1.4},
+  xticklabels={$p_m$,$p_c$,$q$},
+  yticklabels={Surplus},
+]
+    
+\addplot[scatter,only marks, scatter src=explicit symbolic]
+  coordinates {(20, 11) (12, 5) };
+
+\node at (axis cs:12, 5) [anchor=south west] {A};
+\node at (axis cs:20,11) [anchor=north west] {B};
+\addplot[color={rgb, 255:red, 74; green, 144; blue, 226 }, very thick,  domain=0:2, samples=1000, variable=\t]({t},{(1-t)*t})node[below,pos=.7]  node[anchor=east,pos=.5]  {$PS$} ;
+\addplot[color={rgb, 255:red, 74; green, 144; blue, 75 }, very thick,  domain=0:2, samples=1000, variable=\t]({t},  {t^2/2}) node[anchor=east,pos=.5]  {$CS$} ;
+\addplot[color={rgb, 255:red, 200; green, 75; blue, 74 }, very thick,  domain=0:2, samples=1000, variable=\t]({t},{t*(1-t)+t^2/2)}) node[anchor=south,pos=.8] {$TS$} ;
+\draw[dotted] (axis cs:1/2, -1)-- (axis cs:1/2, 1.5);
+\draw[dotted] (axis cs:1, -1)-- (axis cs:1, 1.5);
+
+
+\end{axis}
+
+ \end{tikzpicture}
+
+
+
+\end{document}

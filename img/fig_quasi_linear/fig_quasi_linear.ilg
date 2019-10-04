@@ -1,0 +1,69 @@
+This is makeindex, version 2.15 [MiKTeX 2.9.6840 64-bit] (kpathsea + Thai support).
+Scanning input file fig_quasi_linear...
+!! Input index error (file = fig_quasi_linear, line = 1):
+   -- Unknown index keyword \documentclass[11pt].
+!! Input index error (file = fig_quasi_linear, line = 2):
+   -- Unknown index keyword \usetheme.
+!! Input index error (file = fig_quasi_linear, line = 3):
+   -- Unknown index keyword \setbeamertemplate.
+!! Input index error (file = fig_quasi_linear, line = 4):
+   -- Unknown index keyword \usepackage.
+!! Input index error (file = fig_quasi_linear, line = 5):
+   -- Unknown index keyword \usepgfplotslibrary.
+!! Input index error (file = fig_quasi_linear, line = 7):
+   -- Unknown index keyword \usepackage.
+!! Input index error (file = fig_quasi_linear, line = 8):
+   -- Unknown index keyword \pdfmapfile.
+!! Input index error (file = fig_quasi_linear, line = 11):
+   -- Unknown index keyword %\pgfplotsset.
+!! Input index error (file = fig_quasi_linear, line = 12):
+   -- Unknown index keyword \setbeamertemplate.
+!! Input index error (file = fig_quasi_linear, line = 13):
+   -- Unknown index keyword \begin.
+!! Input index error (file = fig_quasi_linear, line = 14):
+   -- Unknown index keyword \begin.
+!! Input index error (file = fig_quasi_linear, line = 16):
+   -- Unknown index keyword \begin.
+!! Input index error (file = fig_quasi_linear, line = 19):
+   -- Unknown index keyword \begin.
+!! Input index error (file = fig_quasi_linear, line = 20):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 21):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 22):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 23):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 24):
+   -- Unknown index keyword extraxtickstyle=.
+!! Input index error (file = fig_quasi_linear, line = 25):
+   -- Unknown index keyword extraytickstyle=.
+!! Input index error (file = fig_quasi_linear, line = 26):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 28):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = fig_quasi_linear, line = 29):
+   -- Unknown index keyword coordinates.
+!! Input index error (file = fig_quasi_linear, line = 31):
+   -- Unknown index keyword \nodeat(axiscs:12,5)[anchor=southwest].
+!! Input index error (file = fig_quasi_linear, line = 32):
+   -- Unknown index keyword \nodeat(axiscs:20,11)[anchor=northwest].
+!! Input index error (file = fig_quasi_linear, line = 33):
+   -- Unknown index keyword \addplot[color=.
+!! Input index error (file = fig_quasi_linear, line = 34):
+   -- Unknown index keyword \addplot[color=.
+!! Input index error (file = fig_quasi_linear, line = 35):
+   -- Unknown index keyword \addplot[color=.
+!! Input index error (file = fig_quasi_linear, line = 36):
+   -- Unknown index keyword \addplot[color=.
+!! Input index error (file = fig_quasi_linear, line = 38):
+   -- Unknown index keyword \end.
+!! Input index error (file = fig_quasi_linear, line = 40):
+   -- Unknown index keyword \end.
+!! Input index error (file = fig_quasi_linear, line = 47):
+   -- Unknown index keyword \end.
+!! Input index error (file = fig_quasi_linear, line = 48):
+   -- Unknown index keyword \end.
+done (0 entries accepted, 32 rejected).
+Nothing written in fig_quasi_linear.ind.
+Transcript written in fig_quasi_linear.ilg.

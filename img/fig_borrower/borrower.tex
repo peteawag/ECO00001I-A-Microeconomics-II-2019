@@ -1,0 +1,138 @@
+\documentclass[11pt]{beamer}
+\usetheme{simple}
+\setbeamertemplate{footline}{} 
+\usepackage{tikz}
+
+\usepackage{pgfplots}
+\usepackage{amsmath, amssymb, amsthm}   
+\pgfplotsset{
+        % declare the function you want to plot so you can reuse it easily later
+        /pgf/declare function={
+            T1(\u)=ln(0.5*(-2*\u+sqrt(4+4*\u^2)));
+            T0(\u)=ln(0.5*(2*\u+sqrt(44+4*\u^2)));     
+            U0(\u)=\u-1;
+            T12(\u)=ln(-1-2*\u);
+        },
+        % define style to use for the plot to draw only ticks at `\myxlist'
+        % (the plot should be invisible)
+        my ticks/.style={
+            samples at={\myxlist},
+            mark=none,
+            draw=none,
+%            only marks,     % <-- uncomment me to show the data points
+        },
+every non boxed y axis/.append style={y axis line style=-}
+    }
+%\pgfplotsset{ every non boxed y axis/.append style={y axis line style=-}}
+\setbeamertemplate{navigation symbols}{}
+\begin{document}
+\begin{frame}
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.8,xscale=.8]
+%uncomment if require: 
+\path (150,-20); %set diagram left start at 0, and has height of 443
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+
+%Shape: Right Triangle [id:dp7816879231599558] 
+\draw  [draw opacity=0][fill={rgb, 255:red, 74; green, 144; blue, 226 }  ,fill opacity=0.15 ] (107.3,169.6) -- (302.3,382.6) -- (107.3,382.6) -- cycle ;
+%Shape: Axis 2D [id:dp11877989343343409] 
+\draw  (53.3,382.93) -- (586.09,382.93)(106.58,36.6) -- (106.58,421.41) (579.09,377.93) -- (586.09,382.93) -- (579.09,387.93) (101.58,43.6) -- (106.58,36.6) -- (111.58,43.6)  ;
+%Curve Lines [id:da6451900492142217] 
+\draw [color={rgb, 255:red, 74; green, 144; blue, 226 }  ,draw opacity=0.99 ][line width=1.5]    (183.3,25.6) .. controls (186.3,309.6) and (148.3,341.6) .. (556.3,337.6) ;
+
+
+%Straight Lines [id:da3745755779223563] 
+\draw    (106.3,168.6) -- (302.3,382.6) ;
+
+
+%Straight Lines [id:da867944928822125] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (107.3,287.3) -- (214.3,287.3) ;
+
+\only<3>{
+%%% lender %%%
+
+% Text Node
+\draw (415,117) node  [align=left] {{\large Consumer is a lender}};
+
+%Straight Lines [id:da5552586764448832] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (281.3,385.6) -- (281.3,360.3) ;
+
+%Straight Lines [id:da5969482947627576] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (108.3,360.3) -- (281.3,360.3) ;
+
+\draw [shift={(281.3,360.3)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 3.35, y radius= 3.35]   ;
+
+% Text Node
+\draw (283,397) node   {$m_{1}$};
+% Text Node
+\draw (87,361) node   {$m_{2}$};}
+
+
+
+
+
+
+%%%=====
+
+%Straight Lines [id:da9488576670632627] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (214.3,384.6) -- (214.3,287.3) ;
+
+
+\draw [shift={(214.3,287.3)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 3.35, y radius= 3.35]   ;
+
+
+
+
+
+
+
+
+
+
+
+% Text Node
+\draw (597.35,402.33) node   {$x_{1}$};
+% Text Node
+\draw (246,275) node   {$( x_{1} ,x_{2})$};
+% Text Node
+\draw (90,36) node   {$x_{2}$};
+% Text Node
+
+
+
+%%% borrower %%%
+\only<2>{
+
+% Text Node
+\draw (415,117) node  [align=left] {{\large Consumer is a borrower}};
+
+\draw [shift={(133.3,198.3)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 3.35, y radius= 3.35]   ;
+
+%Straight Lines [id:da2760635801274447] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (99.3,198.3) -- (133.3,198.3) ;
+
+
+%Straight Lines [id:da38442276345765913] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (133.3,388.6) -- (133.3,198.3) ;
+% Text Node
+\draw (135,398) node   {$m_{1}$};
+% Text Node
+\draw (84,200) node   {$m_{2}$};
+
+%%% end saver %%%}
+
+
+
+
+
+\end{tikzpicture}
+
+
+\end{frame}
+\end{document}
