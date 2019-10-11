@@ -9,7 +9,7 @@
 \begin{axis}[
   height=7cm, width=12cm,
   axis x line=bottom, axis y line=left,
-  ylabel = Dollar \$, xlabel = Quantity $q$,
+  ylabel = Cost (\$), xlabel = Quantity $q$,
   ymin=0, ymax=10, xmin=0, xmax=10,
   extra x tick style={major tick length=0mm, grid=none},
   extra y tick style={major tick length=0mm,  grid=none},
@@ -20,18 +20,18 @@
 ]
 %\addplot[red, dashed, domain=-1:8, samples=200, variable=\t]({t},  {10+t^2/2});
   \addplot[blue, thick, domain=0:7, samples=200, variable=\t]({t},
-  {t}) node[anchor= west] {$MC(q)=q$} ;;
+  {t}) node[anchor= west] {$MC_j(q)=q$} ;;
   \addplot[orange,thick, domain=0:7, samples=200, variable=\t]({t},
-  {10/t+t/2}) node[anchor= west] {$AC(q)=\frac{10}{q}+\frac{q}{2}$} ;
-   \addplot[black,thick, domain=0:7, samples=200, variable=\t]({t},{10/t})node[anchor= west] {$AFC(q)=\frac{10}{q}$} ;
-   \addplot[black,thick, domain=0:7, samples=200, variable=\t]({t}, {t/2}) node[anchor= west] {$AVC(q)=\frac{q}{2}$} ;
+  {10/t+t/2}) node[anchor= west] {$AC_j(q)=\frac{10}{q}+\frac{q}{2}$} ;
+   \addplot[black,thick, domain=0:7, samples=200, variable=\t]({t},{10/t})node[anchor= west] {$AFC_j(q)=\frac{10}{q}$} ;
+   \addplot[black,thick, domain=0:7, samples=200, variable=\t]({t}, {t/2}) node[anchor= west] {$AVC_j(q)=\frac{q}{2}$} ;
 \addplot[scatter,only marks, scatter src=explicit symbolic]
   coordinates {
     (20, 11)     [c]
      (12, 5)      [c]
   };
 
-\node at (axis cs:3, 8) [anchor=south west] {$c(q)=10+\frac{q^2}{2}$};
+\node at (axis cs:3, 8) [anchor=south west] {$C_j(q)=10+\frac{q^2}{2}$};
 \end{axis}   
 \end{tikzpicture}
 
