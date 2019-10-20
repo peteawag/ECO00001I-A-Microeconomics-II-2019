@@ -1,0 +1,1256 @@
+---
+marp: true
+
+---
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+
+
+ECO00001I-A
+# MICROECONOMICS 2
+## Section 1: Partial Equilibrium
+Autumn 2019
+<br><br><br>
+Peter Wagner, Ph.D. 
+Department of Economics
+University of York
+
+
+---
+
+# Learning Objectives
+    
+    - Understand the difference between General and Partial Equilibrium
+
+    - Construct demand and supply functions in a Partial Equilibrium model
+
+    - Understand basic properties of demand and supply and their meaning
+
+    - Understand measures of market performance: surplus, welfare, efficiency
+
+    - Implications of different modes of competition on market performance?
+
+
+
+---
+
+# Introduction
+
+
+There are two ways in which economists have studied market economies:
+- General equilibrium (Leon Walras): whole economy
+- Partial Equilibrium (Alfred Marshall): a single sector in isolation
+
+Here we study **Partial Equilibrium**:
+ - Clearing of market for a **single** good independently from other markets. 
+- Prices of substitutes and complements \& income levels of consumers  taken as given. 
+- Surplus, welfare, comparative statics: all effects studied in one market in isolation
+
+---
+
+
+Partial equilibrium model much simpler than General Equilibrium Models.
+
+
+**But:** Does not appropriately model real-world economic phenomena (cross-effects)
+
+Differences to General Equilibrium: 
+- No trade between consumers
+- No trade between firms
+- Consumers own "money" which they give to firms in exchange for goods
+
+
+
+---
+
+|                       | Partial Equilibrium                                          | General Equilibrium                             |
+|-----------------------|--------------------------------------------------------------|-------------------------------------------------|
+| Developed by| Alfred Marshall| Léon Walras                                     |
+| Considers             | Single good                                                  | Multiple goods, whole Economy                   |
+| Underlying Assumption | Markets for different goods independent  (ceteris paribus)   | Markets for different goods are interdependent. |
+| Equilibrium           | Price based on prices of other goods being constant          | Prices of goods are determined simultaneously   |
+| Advantages            | Tractable, welfare analysis and comparative statics feasible | More realistic view of the economy              |
+
+---
+## Outline
+
+- Consumers
+- Firms
+- Competitive Equilibrium
+- Surplus and Welfare
+- Monopoly
+- Oligopoly
+
+--- 
+
+# Consumers
+
+**General assumptions**: Consumers are rational!
+
+- (Expected) utility maximisers
+- Forward-looking.
+- Form expectations about future based on all information.
+- May behave strategically
+- No systematic "errors" (behavioral IO)
+
+---
+
+### Quasilinear preferences
+
+We want to study the market for a single good in isolation (partial equilibrium model). 
+
+To achieve this, we need to define preferences over goods, that eliminate income effects.
+
+**Basic idea:** take one good and bundle all others in a  "Hicksian composite commodity"  which we call "money", normalizing its price to 1 (=numeraire). 
+
+
+For a consumer $i$ with quasi-linear preferences, we can write her utility as 
+$$u_i(x_i)+m$$ 
+where we assume that $u_i$ is differentiable, increasing and concave 
+
+---
+
+![center w:20cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_quasi_linear/fig_quasi_linear.png?raw=true)
+
+
+
+
+---
+### Utility maximisation 
+
+Consumer $i$ maximises quasi-linear utility:
+$$\max_{x_i,m_i}\ u_i(x_i)+m_i  $$
+subject to the budget constraint $px_i+m_i=I_i$, where
+- $x_i$ is the quantity of the good
+- $m_i$ is a *Hicksian composite commodity* ($\hat{=}$ money)
+- $p$ is the market price
+- $I_i$ is income
+- $u_i$ is a differentiable, increasing & concave function
+
+---
+Rearranging the budget constraint yields
+$$m_i=-px_i+I_i.$$
+Substituting this equation into the objective yields an unconstrained maximisation problem:
+$$\max_{x_i} u_i(x_i)-px_i+I_i$$
+First-oder condition: $u'_i(x_i)=p \longrightarrow$ Solution: $x_i^*(p)$. 
+
+
+Concavity of $u_i\longrightarrow\ x_i^*(p)\,$ is the unique maximum (see maths handout)
+
+
+
+---
+### Aggregate Demand
+
+*Aggregate demand* is the sum of individual demands:
+$$
+    D(p)=\sum_{i=1}^n x^*_i(p).
+$$
+
+
+With identical preferences: $x_i^*=x^*$ and then $D(p)=n x^*(p).$
+
+Concavity of $u$ implies that $x_i^*(p)$ is decreasing. The same holds $D(p)$. (Exercise)
+
+
+
+Decreasing demand function:  **Fundamental Law of Demand** 
+
+
+---
+
+
+## Inverse demand
+
+If demand curve strictly decreasing, we can invert it:
+
+- **Demand curve:** quantity $q=D(p)$ demanded at price $p$.
+
+- **Inverse demand function:** price $p=P^D(q)$ such that consumers demand $q$. 
+
+Graphically, this corresponds to mirroring the demand curve along the $45^o$ line.
+
+
+
+---
+
+![center 120%](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_demand/fig_demand0001.png?raw=true)
+
+
+
+
+---
+
+### Inverse demand and marginal utility
+
+The first-order condition of the consumers' utility maximisation problem was: 
+$$u'(x^*(p))=p$$
+
+By construction: $p=P^D(q)$, and therefore, for any $q$, we have 
+$$
+u'(x^*(P^D(q)))=P^D(q).
+$$
+Since $q$ is market demand, we have $x^*(P^D(q))=q/n$. 
+
+**Lesson:** 
+
+    Price equals marginal utility
+
+
+
+
+---
+
+## Elasticities
+
+The price elasticity of demand measures the sensitivity of demand to changes in price. 
+
+
+**Definition**: The **price elasticity of demand** of Demand function $D$ at $q$ is defined as
+$$
+\epsilon=\frac{\Delta D(p)/D(p)}{\Delta p/p}.
+$$
+
+Note: the price elasticity is defined in terms of percentage changes, hence **unit free**!
+
+**Remember** 
+  
+    Price elasticity measures the percentage change in demand due to a percentage change in price. 
+---
+![center w:20cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/elasticity2.png?raw=true)
+
+
+
+---
+
+### Point-price elasticity
+#
+
+If the demand function is differentiable, then price elasticity at a given price $p$ is
+$$
+\epsilon(p)=\lim_{\Delta p\to 0}\frac{\Delta D(p)/D(p)}{\Delta p/p}=D'(p)\frac{p}{D(p)},
+$$
+where $D'(p)$ is the derivative of $D$. 
+
+
+
+
+---
+
+
+How do we obtain the this formula? 
+<br>
+
+
+Rearrange:
+$$
+\frac{\Delta D(p)/D(p)}{\Delta p/p}=\underbrace{\frac{\Delta D(p)}{\Delta p}}_{\rightarrow D'(p) \text{ when }\Delta\to 0} \cdot\frac{p}{D(p)}\to D'(p)\frac{p}{D(p)}
+$$
+
+
+---
+**Example 1:** What is the elasticity of the demand function $\small D(p)=\max\{1-p,0\}$?
+
+The marginal demand (first derivative) is $D'(p)=-1$ when $p<1$. 
+
+Use the formula: 
+$$\epsilon(p)=D'(p)\frac{p}{D(p)}=(-1)\cdot\frac{p}{1-p}$$
+
+The price elasticity of demand for such a demand function is 
+$$
+\epsilon(p)=
+\begin{cases}
+0 &\text{ if }p>1\\
+-\frac{p}{1-p}&\text{ if }p\le 1\\
+\end{cases}
+$$ 
+For $p\searrow 0$: elasticity goes to zero. For $p\nearrow 1$: elasticity goes to infinity
+
+
+---
+![bg left:66% 90%](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/elasticity.png?raw=true)
+
+**Intuition:**
+
+When $p$ close to 1 demand is small, and  change in prices has large proportional effect on demand.
+
+Opposite holds when $p$ close to 0.
+
+---
+
+
+**Example 2:** Constant elasticity of demand 
+
+We saw that the elasticity of  linear demand functions depends on the price. 
+
+Another important class of demand functions is constant elasticity demand:
+
+$$D(p)=A/p^\epsilon$$
+
+
+This demand function has elasticity $-\epsilon$ (Exercise)
+
+---
+
+**Remark**: an equivalent way to define elasticities is 
+$$
+\epsilon(p)=\frac{d \log D(p)}{d\log p}.
+$$
+
+(Exercise!)
+
+
+---
+
+
+
+# Firms
+
+### Profit maximisation and cost functions
+
+
+Suppose there are $k>1$ firms labeled $j=1,\ldots, k$.
+
+Assumptions:
+- Firms are price takers: treat price as fixed, regardless of output
+- Firms choose inputs and outputs in order to maximize profits.
+
+---
+
+Profit maximization in two steps
+
+1.  Fix $q$. Firms choose inputs to minimize the cost of producing $q$. Solution yields the cost function $C(q)$ for each output level $q$.
+2.  Fix $p$. Taken as given $C(q)$, choose output $q$ to maximize profits.
+
+Here, we focus on Step 2. 
+
+
+
+---
+### Cost Functions
+
+The total cost of production is the sum of fixed and variable costs
+$$
+C_j(q)=c_{j}(q)+F_j
+$$
+
+where
+-  $F_j$: fixed costs, e.g., set-up costs
+-  $c_j(q)$: costs that vary with output, e.g., labor.
+
+
+
+
+
+
+---
+
+
+**Marginal cost**: the cost of an additional (infinitesimal) unit of output; the slope of the cost curve at a given output level
+$$
+MC_j(q):=c'_j(q)
+$$
+
+
+**Average cost**: "cost per unit".  For $q>0$ the firm's average total cost function is
+$$
+AC_j(q)=\frac{c_j(q)}{q}+\frac{F}{q}
+$$
+**Notation**: we write $AVC_j$ for the *average variable cost* and $AFC_j$ for the *average fixed cost*.
+
+
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_cost/fig_cost.png?raw=true)
+
+
+
+---
+## Convexity of costs
+
+We typically assume that the cost function is convex: $C_j''(q)>0$
+
+Reflects **Law of diminishing returns from production**: Using production processes more intensively makes it over-proportionally less efficient
+
+Convexity of costs implies
+- profit maximisation problem has a unique solution
+- marginal cost increasing 
+- average cost curve has an inverse u-shape
+- marginal cost curve and intersects average cost at its minimum.
+
+---
+**Marginal cost curve and intersects average cost at its minimum**
+
+**Proof:** Ignore subscripts. By definition: $AC(q)=C(q)/q$. Rewrite: $C(q)=qAC(q)$.
+
+Take the derivative: $MC(q)=AC(q)+qAC'(q)$
+
+Solve for $AC'$:
+
+$$AC'(q)=\frac{MC(q)-AC(q)}{q}=\begin{cases}
+<0&\text{ if } MC(q)<AC(q),\\>0&\text{ if } MC(q)>AC(q),\\
+=0&\text{ if } MC(q)=AC(q).
+\end{cases}$$
+
+
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_cost/fig_cost_2.png?raw=true)
+
+---
+
+
+
+
+We now compute a firm's individual output.
+
+Firm $j$ solves:
+$$
+\max_{y_j} \{py_j-C_j(y_j)\}
+$$
+The first-order condition for optimal output is 
+$$
+p=MC_j(y_j)
+$$
+At optimum, price equals marginal cost. Denote solution by $y_j^*(p)$.
+<br>
+
+**Lesson:**
+
+    When firms are price takers, then at the quantity they choose to supply 
+    marginal cost equal market price!
+
+
+
+---
+
+### Aggregate Supply
+
+The aggregate (short-run) supply is the sum over individual supplies by $k$ firms:
+$$
+S(p)=\sum_{j=1}^ky_j^*(p).
+$$
+
+Note that if $c$ is convex, then each $y_j^*(p)$ is increasing (exercise!), and thus so is $S(p)$.
+
+In the same way as for consumer demand, we may then consider the inverse supply function, denoted by  $P^S(q)$ which gives the price that induces a given supply $q$.
+
+---
+
+**Example:** Solving the firms' problem and determine Aggregate Supply
+
+Suppose there are 10 identical firms with cost function $C(q)=10+q^2/2$. 
+
+Average cost: $AC(q)=\frac{10+q^2/2}{q}=\frac{10}{q}+\frac{q}{2}$.
+
+Marginal cost $MC(q)=q$.
+
+Profit (Revenue minus cost) for each firm:
+$$\pi(q)=pq-(10-q^2/2)$$
+
+Optimal supply $q^*$ maximizes profit: $p=MC(q^*) =q^*$. 
+
+$\rightarrow$ Each firm supplies $q^*(p)=p$ at price $p$.
+
+Aggregate supply: $S(p)=10p$.
+
+
+
+---
+# Surplus and Welfare
+
+- How should we measure market performance and "gains from trade"?
+
+
+- In his seminal book Principles of Economics (1890), Alfred Marshall  proposes to measure "surplus pleasure":
+
+  > The price which a person pays for a thing can never exceed, and seldom comes up to that which he would be willing to pay rather than go without it [...]; and he thus derives from the purchase a surplus of pleasure. **The excess of the price which he would be willing to pay rather than go without it, over that which he actually does pay**, is the economic measure of this surplus pleasure. 
+
+*(Alfred Marshall, 1890)*
+
+
+
+---
+
+### Consumer Surplus
+
+Suppose there is a mass 1 of identical consumers. 
+
+Consumer surplus is the utility gained from trading
+
+Consider a consumer with utility $u(q)+m$. 
+- Utility of consumer with wealth $m$ and without trade: $u(0)+m$
+- Utility of consumer with wealth $m$ who buys $q$ goods at price $p$: $u(q)+m-pq$
+
+Take price $p$ as given. Consumer surplus from consumption $q$ is then:
+$$CS(q)=u(q)-pq-u(0)$$
+
+---
+
+**How do we illustrate this in our usual demand-curve diagram?**
+#
+
+Marginal consumer surplus (take the derivative!)
+$$CS'(q)=u'(q)-p$$
+
+From the consumer maximisation problem $u'(q)=P^D(q)$, and therefore
+$$CS'(q)=P^D(q)-p$$
+
+The consumer surplus is thus the integral
+$$CS(\hat q)=\int_0^{\hat q}(P^D(q)-p)dq$$
+
+---
+
+**Lesson:**
+
+    Consumer surplus is the area underneath the inverse demand function
+    up to the demanded quantity
+
+
+---
+### Consumer Surplus
+
+![center w:20cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/consumer_surplus.png?raw=true)
+
+---
+### Calculate Surplus with linear demand
+
+![center w:20cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/consumer_surplus_2.png?raw=true)
+
+---
+
+## Producer Surplus
+
+
+The producer surplus is defined in a similar way. 
+
+**Producer surplus:** profits = the revenue a firm receives from selling a good at a given price minus the cost of producing it
+
+Since firms are price-takers, at a fixed price $p$, producer surplus at quantity $q$ is
+$$PS(q)=pq-c(q)$$
+
+---
+
+Similar to the consumer surplus case, we can represent this in our standard diagrams.
+
+Marginal profit is: 
+$$PS'(q)=p-c'(q)$$
+
+Recall from profit maximisation problem: $c'(q)=P^S(q)$ (recall that $P^S$ is the inverse supply function). Substitute
+$$PS'(q)=p-P^S(q)$$
+
+The total producer surplus is thus the area underneath the price line and above the inverse supply curve, up to total quantity: 
+$$PS(\hat q)=\int_0^{\hat q}(p-P^S(q))dq$$
+
+---
+![center w:23cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/producer_surplus.png?raw=true)
+
+
+---
+
+**Example:** Derive Consumer Surplus for Linear Demand
+
+Consider the demand function
+$$ D(p)=\max\{1-p,0\}?$$
+What is the consumer surplus at $\bar q=0.25$ when price is $p=0.5$? 
+
+First calculate the inverse demand: $P^D(q)=\max\{1-q,0\}$
+
+Since demand is linear, the consumer surplus can be calculated in two ways:
+
+ - Formula for linear demand functions
+ - General integral formula
+
+---
+
+**Formula for linear demand:**
+
+$$
+\begin{aligned}
+CS(\bar q)&=(P^D(\bar q)-p)\bar q+\bar q/2
+\end{aligned}
+$$ 
+Substitute $P^D(q)=1-q$:
+$$
+\begin{aligned}
+CS(\bar q)&=(1-\bar q-p)\bar q+\bar q^2/2\\
+&=\bar q-\bar q^2/2-p\bar q
+\end{aligned}
+$$ 
+
+Substitute $p=0.5$ and $\bar q=0.25$: 
+$$CS(0.25)=0.25-(0.25)^2/2-0.5\cdot0.25=0,03125$$
+
+---
+
+**Integral-formula for general demand:**
+$$CS(\bar q)=\int_0^{\bar  q}(P^D(q)-p)dq=\int_0^{\bar  q}(1-q-p)dq$$
+Substitute $p=0.5$ and $\bar q=0.25$: 
+$$CS(\bar q)=|\bar q-\bar q^2/2-p\bar q|_{0}^{\bar q}=\bar q-\bar q^2/2-p\bar q.$$
+
+Substitute $p=0.5$ and $\bar q=0.25$: 
+$$CS(0.25)=0.25-(0.25)^2/2-0.5\cdot0.25=0,03125$$
+
+---
+
+---
+
+#  Competitive Equilibrium
+
+We now take the aggregate demand and supply function to characterize market equilibria. 
+
+**Basic idea:** aggregate demand equals aggregate supply.
+
+In a partial equilibrium model, we only consider demand and supply of one good, and we one need one price!
+
+
+
+
+
+
+---
+
+**Definition**: A **short-run competitive market equilibrium** consists of a price $p^*$ and an allocation $(x_1^*,\ldots, x_n^*)$ of individual demands and an allocation $(y_1^*,\ldots, y_k^*)$ of individual supplies such that
+
+-  $D(p^*)=S(p^*)$,
+-  $x_i^*$ maximizes consumer $i$'s utility at price $p^*$ for each $i$, 
+-  $y_j^*$ maximizes the profit of firm $j$ at price $p^*$ for each $j$.
+
+
+
+
+
+---
+
+### Properties of the competitive market equilibrium: 
+
+- Clears markets:
+    - No more buyers would like to buy at this price. 
+    -  No more sellers would like to sell at this price.
+-  All choices in the market are individually optimal. 
+
+
+How well does the equilibrium allocate goods and production?
+
+
+
+
+---
+**Example**: Derive an equilibrium mathematically
+
+Consider the following market: 
+- 800 consumers with income $I$ maximise utility utility $\log(x)+m$ subject to the budget constraint $px+m=I$. 
+
+- 200 suppliers with cost function $C(y)=y^2/2$.
+
+---
+
+**Solve the consumer problem:**
+
+- Rearrange budget constraint: $m=-px+I$
+- Consumers chooses $x$ to maximize
+$$\log(x)\underbrace{-px+I}_{=m}$$
+
+---
+
+- First-order condition
+$$\frac{d}{dx}(\log(x)-px+I)=0\Longrightarrow \frac{1}{x}-p=0\Longrightarrow x=\frac{1}{p}$$
+- Optimal individual demand is $x^*(p)=1/p$ for all $i$. 
+
+- Total demand
+$$
+D^*(p)=800 x^*(p)=\frac{800}{p}
+$$ 
+
+
+
+---
+
+**Solve the producer problem:**
+- The cost function of suppliers is $C(y)=y^2/2$. 
+
+- The firms maximise profits
+$$\pi(y)=py-y^2/2$$
+
+---
+
+- First-order condition: $\pi'(y)=p-y=0\Longrightarrow p=y$. 
+
+- Individual supply is $y^*(p)=p$. 
+
+- Total supply is therefore
+$$
+S^*(p)=200 y^*(p)=200p
+$$
+
+
+
+---
+The market equilibrium price $p^*$ satisfies $D(p^*)=S(p^*)$, or 
+$$800/p^*=200p^*\Longrightarrow p^{*2}=4 \Longrightarrow p^*=2$$
+
+Total quantity traded: $q^*=D(p^*)=800/2=400$.
+
+
+Demand and supply curves are depicted in the following diagramme. 
+
+
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/competitive_equilibrium.png?raw=true)
+
+
+---
+## Short-run vs. long-run equilibria
+
+Does the fact that equilibria are efficient rule out firm profits or losses? No! 
+
+Nevertheless, should we consider this as being a "stable" long-run equilibrium state? 
+
+Equilibrium notion should allow for entry and exit of firms in the long-run: 
+
+  -  profits attract new firms, their entry increases supply, reduces market price
+  -  losses deters existing firms, their shutting-down lowers supply, increases market price
+
+$\rightarrow\,$ *In other words, with free entry and exit profits or losses to disappear in the long-run*. 
+
+
+
+---
+New assumption: allow  firms to shut down or enter at will. 
+
+Specifically, number of firms in the market is fixed and they face the cost function 
+$$
+C(q)=\begin{cases}c(q)+F&\text{ if }q>0,\\
+0&\text{ if }q=0.
+\end{cases}
+$$
+
+**Short-run:** fixed cost $F$ is sunk, and cannot be recovered (only variable cost $c$ matters)
+
+**Long-run:** Firms can exit to avoid fixed cost or enter ($F$ matters as well)
+
+We call this *free entry and free exit*. 
+
+
+
+
+---
+
+**Definition:** A **long-run competitive equilibrium** consists of a price $p^*$ and an allocation of demands $x^*=(x_i^*)_{i=1}^n$ and of supplies $y^*=(y_j^*)_{j=1}^k$, such that $(p^*,x^*,y^*)$ is a short-run equilibrium and 
+$$
+\pi_j^*(p^*)=0
+$$
+for all $j=1,2, \ldots,k$.
+
+(in short: long-run equilibrium = short-run equilibrium + zero profit)
+
+---
+
+**Example**: 
+
+- Suppose there are $k$ firms with convex cost $C(q_i)$ for firm $i$.
+
+- Market supply: $q=q_1+\ldots+q_k$
+
+- The market has inverse demand: $P^D(q)$
+
+---
+**In equilibrium:**
+- Firms are identical, and produce same amount: $q_j=q/k$
+- Profit maximisation implies: $P^S(q)=MC(q/k)$ (see firm's problem above)
+- Average cost is: $AC(q/k)$
+
+*Intuition:* At the price $p$ that induces market supply $q$, each firm's marginal cost at its own output $q_j=q/k$ is equal to $p$
+
+
+
+---
+
+![bg left:60% w:18cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/compet_eq_exit.png?raw=true)
+
+
+*Short run equilibrium but not a long-run equilibrium*
+
+**Why?** Average cost is above price at individual supply so firms make losses
+
+$\Rightarrow$ firms want to exit!
+
+
+
+---
+
+
+![bg left:60% w:16cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/compet_eq_entry.png?raw=true)
+
+
+*Short run equilibrium but not a long-run equilibrium*
+
+**Why?** Average cost is below price so firms make profits
+
+$\Rightarrow$ firms want to enter!
+
+
+---
+
+
+![bg left:60% w:18cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/compet_eq_longrun.png?raw=true)
+
+
+*Short run equilibrium and
+long-run equilibrium!*
+
+Average cost is equal to price so firms make zero profits!
+
+---
+
+
+**Remark:** Integer Problems
+
+As a technical aside, in perfectly competitive markets, firms and consumers are usually considered as being "infinitesimal" (positive in size but negligible). 
+
+By adding this assumption, one can avoid integer problems that can lead to non-existence of long-run equilibria. 
+
+Possible scenario: in the short-run equilibrium $k$ firms make losses, $k-1$ make profits. 
+
+Solution:  add a "fraction" or a "small quantity" of firm. 
+
+
+---
+
+# Efficiency and Welfare
+
+- We wish to know how well markets perform: How well does the equilibrium allocate goods and production?
+
+
+- Two different performance measures
+  - (Pareto-) Efficiency
+  - Welfare
+
+---
+
+## Pareto-efficiency
+
+**Definition:** An allocation of goods is **Pareto-efficient** if there is no other allocation that makes no one worse off and some better strictly better off.
+
+Pareto-efficiency is a "no waste" condition
+- Weak notion of efficiency, no claims about fairness or "happiness"
+- Necessary condition for a desirable allocation.
+- Perhaps insufficient: If one agent has everything, this is Pareto efficient.
+
+
+
+---
+
+## Welfare 
+
+The "welfare" generated in the market which is the total gains it generates. 
+
+**Definition:** The **(Social) Welfare** is the sum of surpluses or, equivalently, the utilities from consumption minus costs of production.
+$$W(q):=CS(q)+PS(q)$$
+
+
+Stronger notion than Pareto-efficiency: a welfare maximising allocation is Pareto-efficient, but not the other way
+
+
+---
+![bg left:60% contain](https://core-econ.org/the-economy/book/images/web/figure-08-05-01-02.jpg)
+
+### Welfare: 
+
+Welfare represents the sum of consumers surplus (utility gain) and producer surplus (profits)
+
+
+
+
+---
+
+## Competitive Equilibrium and Efficiency
+The First Welfare Theorem formalizes Adam Smith's "invisible hand"!
+
+> Every individual... neither intends to promote the public interest, nor knows how much he is promoting it... he intends only his own security; and by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention.
+
+*(Adam Smith, The Wealth Of Nations, 1776)*
+
+---
+
+![bg h:50cm w:40cm](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAA1BMVEUfJi6vCFd8AAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeA8XKAAFZcBBuAAAAAElFTkSuQmCC)
+![](white)
+
+**Theorem** (First Welfare Theorem) 
+
+In an ideal economy, every long-run competitive equilibrium is Pareto-efficient.
+
+
+
+---
+
+
+**Exercise:** Show that the long-run competitive equilibrium maximizes welfare!
+
+
+
+
+---
+
+# Taxes
+
+
+- We now use the notions of consumer surplus to evaluate the effect of a goverment tax. 
+- Quantity tax $t$: for any purchase of $q$ units, pay tax $t\cdot q$
+- In equilibrium, consumers and producers face different prices:
+  - Price paid by consumers: $\hat p_c$
+  - Price paid by firms: $\hat p_f$
+  - Price difference: $\hat p_c=\hat p_f+t$
+
+
+---
+**Equilibrium with taxation:**
+- Tax is equivalent to a shift in demand or a shift in supply
+- In equilibrium, markets must clear: 
+  - quantity demanded by consumers must equal the quantity supplied by firms 
+  - at the equilibrium quantity $q^*$, the difference between price paid by consumers and received by firms must equal the tax
+$$
+P^D(q^*)=P^S(q^*)+t
+$$
+
+What about surplus?
+
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_deadweight/fig_deadweight0001.png?raw=true)
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_deadweight/fig_deadweight0002.png?raw=true)
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_deadweight/fig_deadweight0003.png?raw=true)
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_deadweight/fig_deadweight0004.png?raw=true)
+
+---
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_deadweight/fig_deadweight0005.png?raw=true)
+
+---
+
+## Tax Incidence: who pays the tax? 
+
+- The distribution of tax burden determined by relative elasticities of demand and supply
+  - consumers bear more burden if demand more elastic than supply
+  - firms bear more burden if supply more elastic than demand
+- The higher the elasticity of demand and supply, the larger the deadweight loss
+
+---
+**Consumers bear burden when demand perfectly inelastic:**
+
+
+![center w:30cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/tax_incidence/tax_incidence_producers.png?raw=true)
+
+---
+**Firms bear burden when supply perfectly inelastic:**
+
+![center w:30cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/tax_incidence/tax_incidence_consumers.png?raw=true)
+
+---
+
+# Market Power
+
+
+- In ideal markets, each firm has a small share of the market and are price takers. 
+
+- In some markets, firms may have *market power*: they control supply and/or price 
+
+- This section: study effects of market power
+    - single supplier: monopoly
+    - two suppliers:  oligopoly
+
+
+---
+## Monopoly
+
+A *monopoly*  is a market for a good that is supplied by a single firm (from ancient greek *monopolion*, "a right of exclusive sale"), supplier in a monopoly is called a *monopolist*. 
+
+**Examples of monopolists:**
+
+
+  -  Microsoft, market for operating systems. Market share ' 90\%.
+  -  Google: 70\% of US web searches, 70\% of online advertising market.
+  -  Gillette, razor blades market, 72\% market share. 
+  -  Utilities (electricity, water, telephone, rail, etc.)
+
+
+
+---
+
+
+Since the monopolist controls the entire supply in the market, the price that it faces is not constant but rather given by the demand curve itself: $P^D(q)$. 
+
+The profit maximization problem for the monopolist is then given by
+$$
+\max_{q} P^D(q)q - c(q) .
+$$
+Since we are in a monopoly, the individual supply of the monopolist equals aggregate demand
+
+
+
+
+---
+To solve for the optimal level of output,  solve the f.o.c. 
+$$
+\underbrace{P^{D'}(q)q +P^D(q)}_{:=MR(q)} \ - c'(q)=0
+$$
+
+Denote monopoly supply by by $q_m$. 
+
+Demand is downward sloping, so that $P^{D'}(q)q<0$ and hence $MR(q)<P^D(q)$, 
+
+Therefore, monopolists under-supply the market: $q_m<q^*$. 
+
+
+---
+
+![center w:25cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/monopoly-pricing.png?raw=true)
+
+---
+### Inverse Elastiticy Rule
+
+Intuitively, a monopolist can exploit the fact that demand is inelastic.
+
+The relationship between the profit for the monopolist and elasticity of demand s captured by the **Inverse Elasticity Rule**.
+
+Consider the marginal revenue for the monopolist:
+$$
+(*) \ \ \ MR(q)=P^D(q) + P^{D'}(q)q= P^D(q) \Big(1 + {\color{red}\underbrace{P^{D'}(q)\frac{q }{P^D(q)}}_{=1/\epsilon}}\Big)
+$$
+
+---
+
+
+Since $P^D(q)$ is the inverse of $D(p)$:
+$$D(P^D(q))=q\Rightarrow D'(P^D(q))P^{D'}(q)=1\Rightarrow P^{D'}(q)=\frac{1}{D'(P^D(q))}$$
+
+Further, recall the definition of elasticity of demand
+
+$$P^{D'}(q)\frac{q }{P^D(q)}=\frac{1}{D'(P^D(q))}\frac{D(p)}{p}=\frac{1}{\epsilon(p)}$$
+
+
+Substituting the first and then the second identity into into equation $(*)$ on the previous slide, we find 
+$$(**)\ \ \ MR(q)=P^D(q) \left(1 + \frac{1}{\epsilon(P^D(q))}\right)$$
+
+
+
+---
+If we now substitute $(**)$ into the first-order condition for the monopolist's profit maximization problem, we have
+$$
+P^D(q) \left(1 + \frac{1}{\epsilon(P^D(q))}\right)=MC(q)
+$$
+If we now rearrange this equality, we obtain
+$$
+L:=\frac{P^D(q)-MC(q)}{P^D(q)}=-\frac{1}{\epsilon(P^D(q))}
+$$
+This equation is known as the **inverse elasticity rule**.  The expression on the left-hand side is called the Lerner index and the difference $P^D(q)-MC(q)$ is the "mark-up". 
+
+---
+
+**Why do we need the inverse elasticity rule**?
+ - Can be used to calculate monopoly price directly when elasticity of demand is known
+ - Monopolist operates in inelastic region of demand $(\epsilon>-1)$! Why? 
+$$
+\begin{aligned}
+\frac{P^D(q)-MC(q)}{P^D(q)}&=-\frac{1}{\epsilon(P^D(q))}\\
+\Rightarrow\ \ \ \ \ \ \ \frac{P^D(q)}{P^D(q)}&>-\frac{1}{\epsilon(P^D(q))}\\
+\epsilon(P^D(q))&>-1
+\end{aligned}
+$$
+*(Recall: When demand is inelastic, a price increase leads to a less than proportionate decrease in quantity demanded)*
+
+---
+
+## Two-Part Tariffs
+
+- So far we assumed the monopolist sets a uniform price. 
+
+- The monopolist can do better with so-called two-part tariffs!
+
+- Basic idea: in addition to a per unit price, charge an upfront fee
+
+- With a "two-part" tariff, the monopolist supplies the efficient amount
+
+- BUT: the monopolist extracts the entire surplus!!
+
+
+--- 
+
+###  Optimal two-part tariff
+
+- Principal supplies $q$ at price $p=P^D(q)$. 
+
+- Consumer willing to pay $T\le CS(q)$ upfront. 
+
+Optimal tariff
+- Price equal to competitive price: $p^*$ $\rightarrow$ demand $q^*=D(p^*)$
+- Fee equal to surplus $T^*=CS(q^*)$. 
+
+
+---
+
+![bg left:55% contain](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/two_part_tariff.png?raw=true)
+
+
+**Two-part tariff**
+
+Monopolists extracts all surplus: 
+1. Consumers demand efficient quantity
+2. Monopolist is paid upfront
+
+
+
+---
+
+## Oligopoly: Cournot model
+
+
+
+- Two symmetric firms that supply entire market. 
+- Not price takers: they affect price through outputs
+- Firms sets their outputs 
+  - independently (no coordination)
+  - simultaneously (cannot observe the choice of the other firm)
+
+---
+
+Profit of firm $i$:
+$$\pi_i(q_1,q_2)=P^D(q_1+q_2)q_i-C(q_i)$$
+<br>
+
+**Market Equilibrium:** A Cournot Equilibrium is a pair of outputs $(q_1^*,q_2^*)$ such that output $q_1^*$ maximizes the profit of firm 1 given $q^*_2$, and vice versa.
+
+
+
+---
+
+### Linear Cournot
+
+For simplicity, suppose we have an inverse demand function 
+$$P^D(q)=a-bq$$
+and linear cost $C(q)=c q$
+
+
+---
+
+The profit maximization problems of both firms are
+$$
+\begin{aligned}
+\max_{q_1} \big(a-b(q_1 + q_2^*)\big)q_1 - c q_1,\\
+\max_{q_2} \big(a-b(q_1^* + q_2)\big)q_2 - c q_2.
+\end{aligned}
+$$
+
+
+---
+
+
+
+
+
+
+The first-order conditions associated with these maximization problems are
+$$
+\begin{aligned}
+a-2bq_1^* - q_2^* - c =0\Longrightarrow q_1=\frac{a-c-q_2^*}{2b}\\
+a-q_1^* -2 bq_2^* - c =0\Longrightarrow q_2=\frac{a-c-q_1^*}{2b}.
+\end{aligned}
+$$
+
+Two find the Cournot equilibrium, we solve the second equation for $q_2^*$ and substitute in the first to solve for $q_1^*$. This yields the solution
+$$
+q^*:=q_1^*=q_2^*=\frac{a-c}{3b}.
+$$
+
+---
+
+
+
+
+
+
+![center w:15cm](https://github.com/peteawag/ECO00001I-A-Microeconomics-II-2019/blob/master/img/fig_cournot/fig_cournot0001.png?raw=true)
+
+---
+
+
+### Example: Cournot vs. Monopoly and Perfect Competition 
+
+
+Suppose our demand function is $D(p)=8-p$ and firms have  zero cost $c(\cdot)=0$. 
+
+<br>
+
+**1. Competitive Equilibrium**
+
+The competitive equilibrium price equal marginal cost: $p^*=0$. 
+
+Total demand is $q^*=D(p^*)=8-0=8$.
+
+The competitive equilibrium is $(p^*,q^*)=(0,8)$.
+
+
+---
+**2. Monopoly**
+
+The monopolist solves
+$$
+\max_{q} \pi(q)=\big(8-q\big)q
+$$
+
+FOC is $\pi'(q)=8-2q_m=0$, so optimal quantity is $q_m=4$. 
+
+Corresponding price is $p_m=P^D(4)=8-4=4$
+
+
+Monopolist outcome $(p_m,q_m)=(4,4)$
+
+
+---
+**3. Cournot**
+
+Cournot quanities are
+$$q_1=q_2=\frac{8}{3}=2 \frac{2}{3}$$
+
+Aggregate Supply is $q=2\times 2 \frac{2}{3}=5\frac{1}{3}$. 
+
+Corresponding price is $p=P^D(5\frac{1}{3})=8-5\frac{1}{3}=2 \frac{2}{3}$
+
+
+Monopolist outcome $(p,q)=(2 \frac{2}{3},5\frac{1}{3})$
+
+---
+
+
+## Review Questions
+
+- What is the purpose of the Partial Equilibrium model?
+- What is quasi-linear utility, and why do we use these types of preferences?
+- What is the purpose of "elasticity", and why do we define it in terms of %-changes? 
+- Why are surpluses the areas between demand and supply?
+- What is the difference between efficiency and welfare?
+- Why does a monopolist undersupply the market?
+- What is the meaning of the "inverse elasticity rule"
+- What is the difference between an oligopoly and a perfectly competitive market?
+
+
+
+
+
+
+
+
+
+
+
