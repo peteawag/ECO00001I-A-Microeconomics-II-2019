@@ -1,0 +1,11 @@
+\documentclass[]{standalone}
+\usepackage{xcolor,sgame}
+\renewcommand{\r}{\color{red}}
+\renewcommand{\b}{\color{blue}}
+\begin{document}
+\begin{game}{2}{2}[\r Suspect~1][\b Suspect~2]
+			& Cooperate 					& Defect\\
+Cooperate 	&$\r-1,\b-1$ 		&$\r-10,\b0$\\
+Defect 		&$\r0,\b-10$ 		&$\r-5,\b-5$ 
+\end{game}
+\end{document}
