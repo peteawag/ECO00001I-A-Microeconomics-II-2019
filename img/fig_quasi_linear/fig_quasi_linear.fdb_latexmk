@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1548284022 "fig_quasi_linear.tex" "fig_quasi_linear.pdf" "fig_quasi_linear" 1548284024
-  "/dev/null" 1548284016 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1548284022 "fig_quasi_linear.tex" "fig_quasi_linear.pdf" "fig_quasi_linear" 1572015690
+  "/dev/null" 1572015676 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
@@ -148,9 +148,9 @@
   "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
   "/usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt" 1442923550 3445934 60cc0d3ea9cef34f4b1f4c9f2ba6879b ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "fig_quasi_linear.aux" 1548284023 8 a94a2480d3289e625eea47cd1b285758 ""
+  "fig_quasi_linear.aux" 1548283911 8 a94a2480d3289e625eea47cd1b285758 ""
   "fig_quasi_linear.tex" 1548284022 3390 d619afa7becee7a5fccc37730406cf21 ""
   (generated)
+  "fig_quasi_linear.pdf"
   "fig_quasi_linear.log"
   "fig_quasi_linear.aux"
-  "fig_quasi_linear.pdf"
