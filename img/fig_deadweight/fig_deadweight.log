@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.26)  25 SEP 2020 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.26)  25 SEP 2020 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,16 +1177,16 @@ Missing character: There is no 8 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ] in font nullfont!
-LaTeX Font Info:    Try loading font information for U+msa on input line 547.
+LaTeX Font Info:    Try loading font information for U+msa on input line 546.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 547.
+LaTeX Font Info:    Try loading font information for U+msb on input line 546.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 547.
+line 546.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1398,20 +1398,20 @@ Missing character: There is no ] in font nullfont!
 \tf@snm=\write8
 \openout8 = `fig_deadweight.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
 
 (/Users/paw/Documents/GitHub/ECO00001I-A-Microeconomics-II-2019/img/fig_deadwei
 ght/fig_deadweight.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 548.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 548.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
 Package rerunfilecheck Info: File `fig_deadweight.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  32331 strings out of 492649
  805125 string characters out of 6129622
- 1095591 words of memory out of 5000000
+ 1092607 words of memory out of 5000000
  35556 multiletter control sequences out of 15000+600000
  10671 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1421,7 +1421,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on /Users/paw/Documents/GitHub/ECO00001I-A-Microeconomics-II-201
-9/img/fig_deadweight/fig_deadweight.pdf (6 pages, 45144 bytes).
+9/img/fig_deadweight/fig_deadweight.pdf (6 pages, 45047 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
